@@ -4,11 +4,19 @@ public class Variable_5 {
 
     public static void main(String[] args) {
 
-        int age = 27;
+        int a = 27;
+        int b = 30;
 
-        System.out.println(age);
 
-        System.out.printf("Your age is %d",age);
+
+        System.out.printf("Your value is %d, %d",a,b);
+        System.out.println();
+
+        System.out.printf("a = %d, b = %d",a,b);
+        System.out.println();
+        System.out.println("a = " + a +  ", b = " + b);
+
+
 
     }
 }
